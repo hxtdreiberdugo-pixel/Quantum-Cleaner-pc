@@ -21,7 +21,7 @@ jobs:
 
       - name: Build EXE
         run: |
-          pyinstaller --onefile --console "PC CHECKER.py"
+          pyinstaller --onefile --console "Quantum Squad.py"
 
       - name: Upload EXE
         uses: actions/upload-artifact@v4
